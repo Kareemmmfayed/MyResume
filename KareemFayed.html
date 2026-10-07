@@ -80,8 +80,18 @@
       <hr />
       <div class="flex justify-between mb-4">
         <div>
-          <h3 class="font-bold">WizJobs</h3>
+          <h3 class="font-bold">
+            <a
+              href="https://wiz-jobs.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:underline"
+            >
+              WizJobs
+            </a>
+          </h3>
           <div>Back-End Developer</div>
+          <div class="text-sm text-gray-600">https://wiz-jobs.com/</div>
         </div>
         <div class="text-center">
           <div>02/2026 - Present</div>
@@ -92,60 +102,63 @@
         <ul class="list-disc ml-6">
           <li>
             Develop and maintain backend services for an AI-powered recruitment
-            platform connecting job seekers and hiring managers using Java,
-            Spring Boot, PostgreSQL, and Kafka.
+            platform built on a <strong>microservices architecture</strong>,
+            using Java, Spring Boot, PostgreSQL, Kafka, and REST/OpenFeign, with
+            independently structured services and database schemas.
           </li>
           <li>
-            Implement features across a modular monolith architecture consisting
-            of multiple independently structured business modules, each with its
-            own database schema and REST-based communication layer.
-          </li>
-          <li>
-            Design and develop RESTful APIs and business logic for recruitment
-            workflows, candidate management, job posting, and hiring operations.
-          </li>
-          <li>
-            Build cross-module functionality using OpenFeign clients while
-            maintaining clear module boundaries and separation of concerns.
+            Design and implement RESTful APIs and business logic across
+            recruitment workflows, including candidate management, job posting,
+            and hiring operations, while maintaining clear service boundaries
+            and separation of concerns.
           </li>
           <li>
             Integrate backend services with AI-powered components through
-            Kafka-based event-driven communication to support candidate
-            evaluation, profile scoring, skill matching, recommendation
-            workflows, and other intelligent recruitment features.
+            <strong>Kafka-based event-driven workflows</strong> supporting
+            candidate evaluation, profile scoring, skill matching,
+            recommendations, and other intelligent recruitment features.
           </li>
           <li>
-            Contributed to the implementation of a skill-matching system
-            leveraging vector embeddings and similarity calculations to improve
-            candidate-job recommendation accuracy.
+            Contributed to a
+            <strong
+              >skill-matching system using vector embeddings and similarity
+              calculations</strong
+            >
+            to improve candidate-job recommendation accuracy, while simplifying
+            embedding processing through maintainable service-layer
+            implementations.
           </li>
           <li>
-            Simplified embedding similarity processing by replacing complex
-            database-level vector operations with maintainable service-layer
-            implementations, improving code readability and maintainability.
+            <strong
+              >Designed and implemented a payment service from scratch</strong
+            >, integrating the N-Genius hosted payment page and APIs to generate
+            single-use payment links, handle payment webhooks, manage
+            transaction lifecycles and statuses, and persist orders, packages,
+            and payment transactions.
           </li>
           <li>
-            Develop analytics and reporting features for hiring managers,
+            <strong>Built an identity verification service</strong> supporting
+            national IDs, passports, and residency visas, integrating AWS
+            document storage with an external AI service through Kafka to
+            extract and validate identity information against user profiles,
+            with retry mechanisms for failed asynchronous processing.
+          </li>
+          <li>
+            Develop analytics and reporting capabilities for hiring managers,
             including productivity metrics, job-post performance tracking, and
             SLA-based response-time calculations.
           </li>
           <li>
-            Create and maintain PostgreSQL database schemas and Liquibase
-            migration scripts for new features and system enhancements.
-          </li>
-          <li>
-            Implement scheduled background processes using Spring Scheduler to
-            handle retry mechanisms and improve reliability of asynchronous
-            AI-driven workflows.
+            Design and maintain PostgreSQL schemas and Liquibase migrations, and
+            implement scheduled background processes with Spring Scheduler to
+            improve reliability of asynchronous workflows and retry failed
+            operations.
           </li>
           <li>
             Collaborate with product managers, QA engineers, frontend
-            developers, and backend team members throughout the feature
-            lifecycle, from requirements discussion to production release.
-          </li>
-          <li>
-            Participate in code reviews, debugging, and production issue
-            resolution within a fast-paced product development environment.
+            developers, and backend engineers across the full feature lifecycle,
+            from requirements and technical discussions through implementation,
+            code reviews, debugging, and production releases.
           </li>
         </ul>
       </div>
